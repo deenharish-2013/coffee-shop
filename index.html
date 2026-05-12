@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;padding: 0;
+        
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: burlywood;
+        font-size: larger;
+    }
+    .navbar ul{
+        display: flex;
+        list-style: none;
+    }
+    .navbar ul li{
+        margin-left: 25px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .hero1{
+        text-align: center;
+        padding-top: 4%;
+        font-size: larger;
+    }
+    .hero1 h2{
+        color: brown;
+        padding-bottom: 1%;
+    }
+    .hero{
+        display: flex;
+        justify-content: space-around;
+    }
+    .hero2{
+        font-size: larger;
+        padding-top: 15%;
+    }
+    .hero2 h2{
+        color: chocolate;
+        padding-bottom: 15px;
+    }
+    .heros{
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero3{
+        font-size: larger;
+        padding-top: 10%;
+        padding-right: 5%;
+    }
+    .hero3 h2{
+        color: brown;
+        padding-bottom: 15px;
+    }
+
+    .cards h2{
+        text-align: center;
+        color: brown;
+        padding-bottom: 4%;
+        font-size: xx-large;
+    }
+    .card{
+        height: 300px;
+        width: 300px;
+        border-color: black;
+        border-radius: 20px;
+        border-style: solid;
+        padding: 20px;
+        text-align: center;
+        
+    }
+    .card h3{
+        color: darkred;
+        padding-bottom: 5px;
+    }
+    .card button{
+        height: 50px;
+            width: 60px;
+        background-color: brown;
+        color: aliceblue;
+        border-radius: 25px;
+        border-width: 5px;
+        border-color: black;
+        border-style: groove;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .menu button{
+        margin-top: 20px;
+        margin-left: 48%;
+        height: 50px;
+        width: 80px;
+        background-color: yellow;
+        border-radius: 20px;
+        border-color: black;
+        border-width: 5px;
+        border-style: solid;
+        
+    }
+    .footer{
+        text-align: center;
+        height: 150px;
+        width: 100%;
+        background-color: brown;
+        color: white;
+        padding-top: 30px;
+    }
+</style>
+<body>
+    <nav class="navbar">
+        <h2>☕ Tea & Coffee</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="hero1">
+        <h2>Welcome to Our Tea & Coffee Shop</h2>
+        <p>Discover the finest selection of teas and coffees from around the world.</p>
+    </div>
+
+    <div class="hero">
+    <div class="hero2">
+        <h2>Our Specialties</h2>
+        <p>From aromatic teas to rich coffees, we have something for every palate.</p><br>
+        <p>Enjoy a cozy atmosphere with friends or take a moment for yourself with our carefully curated beverages.</p>
+    </div>
+    <div class="img1">
+    <img src="assets/photos/coffee 1.png" height="500px" width="500px" alt="coffee">
+    </div>
+    </div>
+    
+    <div class="heros">
+        <div class="img2">
+            <img src="Assets/photos/tea 1.png" height="500px" width="500px" alt="tea">
+        </div>
+        <div class="hero3">
+            <h2>Why Choose Us?</h2>
+            <p>We source our ingredients from the best suppliers to ensure quality and freshness.</p><br>
+            <p>Our team is passionate about providing you with an exceptional experience every time you visit.</p>
+        </div>
+    </div>
+    <div class="cards">
+        <h2>Our Signatures</h2>
+        <div class="flex">
+        <div class="card">
+            <img src="Assets/photos/Espresso 2.jpg" height="200px" width="300px" alt="Expresso">
+            <h3>Espresso</h3>
+            <p>Rich & strong Italian coffee shot.</p><br>
+            <button>₹120</button>
+        </div>
+        <div class="card">
+            <img src="Assets/photos/green tea.jpg" height="200px" width="300px" alt="green tea">
+            <h3>Green Tea</h3>
+            <p>Fresh & soothing herbal blend.</p><br>
+            <button>₹80</button>
+        </div>
+        <div class="card">
+            <img src="Assets/photos/Cappuccino.jpg" height="200px" width="300px" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p>Creamy coffee topped with foam.</p><br>
+            <button>₹150</button>
+        </div>
+        </div>
+    </div>
+    <div class="menu">
+        <button>MENU</button>
+    </div><br>
+    <footer class="footer">
+        <p>Follow us on:</p><br>
+        <p>Facebook | Instagram | twitter</p><hr><br>        
+        <p>&copy2023 Tea & Coffee Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
