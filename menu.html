@@ -6,6 +6,74 @@
     <title>Document</title>
 </head>
 <style>
+    *{
+        margin: 0;padding: 0;
+        
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: burlywood;
+        font-size: larger;
+    }
+    .navbar ul{
+        display: flex;
+        list-style: none;
+    }
+    .navbar ul li{
+        margin-left: 25px;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: black;
+    }
+     
+    .footer{
+        text-align: center;
+        height: 150px;
+        width: 100%;
+        background-color: brown;
+        color: white;
+        padding-top: 30px;
+    }
+    .snaks{
+        display: flex;
+        padding: 2%;
+        justify-content: space-between;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .cofee{
+        height: 310px;
+        width: 300px;
+        background-color: aquamarine;
+        padding: 2%;
+        border-radius: 2%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: aliceblue;
+        background-color: darkgrey;
+    }
+    .cofee p{
+        color: black;
+    }
+    .cofee img{
+        border-radius: 3%;
+    }
+    .list{
+        text-align: center;
+        font-size: larger;
+    }
+    .cofee button{
+        height: 25px;
+        width: 50px;
+        color: black;
+        background-color: pink;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    </style>
 
 <body>
         <nav class="navbar">
@@ -13,11 +81,80 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="#">Menu</a></li>
+            <li><a href="menu.html">Menu</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
+<div class="list">
+    <h2>Our Coffee</h2>
+<div class="snaks">
+    <div class="cofee">
+    <img src="Assets/photos/Espresso 2.jpg" height="250px" width="300px" alt="Espresso">
+    <h3>Espresso</h3>
+    <p>Rich & strong Italian coffee shot.</p>
+    <button>₹120</button>
+</div>
+<div class="cofee">
+    <img src="Assets/photos/Cappuccino.jpg" height="250px" width="300px" alt="Cappuccino">
+    <h3>Cappuccino</h3>
+    <p>Creamy coffee topped with foam.</p>
+    <button>₹150</button>
+</div>
+<div class="cofee">
+    <img src="Assets/photos/Latte.jpg" height="250px" width="300px" alt="Latte">
+    <h3>Latte</h3>
+    <p>Smooth milk coffee blend.</p>
+    <button>₹150</button>
+</div>
+</div>
+</div>
 
+<div class="list">
+    <h2>Our Coffee</h2>
+<div class="snaks">
+    <div class="cofee">
+    <img src="Assets/photos/Green Tea.jpg" height="250px" width="300px" alt="Green Tea">
+    <h3>Green Tea</h3>
+    <p>Fresh & soothing herbal blend.</p>
+    <button>₹80</button>
+</div>
+<div class="cofee">
+    <img src="Assets/photos/Masala Chai.jpg" height="250px" width="300px" alt="Masala Chai">
+    <h3>Masala Chai</h3>
+    <p>Spiced tea with a rich aroma.</p>
+    <button>₹150</button>
+</div>
+<div class="cofee">
+    <img src="Assets/photos/black tea.jpg" height="250px" width="300px" alt="Black Tea">
+    <h3>Black Tea</h3>
+    <p>Classic strong brewed tea.</p>
+    <button>₹70</button>
+</div>
+</div>
+</div>
+<div class="list">
+    <h2>Our Snacks</h2>
+<div class="snaks">
+    <div class="cofee">
+    <img src="Assets/photos/Chocolate Chip Cookies.jpg" height="250px" width="300px" alt="Chocolate Chip Cookies">
+    <h3>Chocolate Chip Cookies</h3>
+    <p>Freshly baked, crunchy & sweet.</p>
+    <button>₹60</button>
+</div>
+<div class="cofee">
+    <img src="Assets/photos/Blueberry Muffin.jpg" height="250px" width="300px" alt="Blueberry Muffin">
+    <h3>Blueberry Muffin</h3>
+    <p>Soft muffin with juicy blueberries.</p>
+    <button>₹70</button>
+</div>
+<div class="cofee">
+    <img src="Assets/photos/Butter Croissant.jpg" height="250px" width="300px" alt="Butter Croissant">
+    <h3>Butter Croissant</h3>
+    <p>Flaky & buttery French pastry.</p>
+    <button>₹90</button>
+</div>
+</div>
+</div>
     <footer class="footer">
         <p>Follow us on:</p><br>
         <p>Facebook | Instagram | twitter</p><hr><br>        
